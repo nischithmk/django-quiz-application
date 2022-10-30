@@ -28,7 +28,7 @@ SECRET_KEY = 'd$pxg6fisc4iwzk&vz^s_d0lkf&k63l5a8f!obktw!jg#4zvp3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["nischith-quiz-application.herokuapp.com"]
 
 
 # Application definition
@@ -103,7 +103,7 @@ USE_L10N = True
 USE_TZ = True
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://nischith-quiz-application.herokuapp.com/'
+    'https://nischith-quiz-application.herokuapp.com'
 ]
 
 # Static files (CSS, JavaScript, Images)
